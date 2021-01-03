@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+section {
+    padding: 0 10rem;
+    background: url(https://www.planetware.com/photos-large/THA/thailand-krabi-railay-beach.jpg);
+    height: 100vh;
+    display: flex;
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    max-width: 60rem;
+    padding: 7rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.box h1 {
+    margin: 0 0 2rem;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+
+.box p {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
